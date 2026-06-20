@@ -55,31 +55,11 @@ You can customize:
 - Colors and fonts
 - Add additional HTML elements as needed
 
-## 📝 License
-
-This project is open source and available for personal and commercial use.
-
-## 👤 Author
-
-**Pooja-79**
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Fork the repository
-- Create a feature branch
-- Submit pull requests
 
 ## 💡 Future Improvements
 
-- Add CSS for enhanced styling
-- Implement responsive grid layouts
 - Add interactivity with JavaScript
 - Create image lightbox functionality
-
-## 📧 Contact
-
-For questions or suggestions, please reach out through GitHub.
 
 ---
 
