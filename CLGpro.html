@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Front Page</title>
+    <link rel="stylesheet" href="clg style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <img src="C:\Users\Poojaatla\Downloads\DSEU.jpeg" alt="DSEU" width="100" height="100">
+            <a href="#" class="logo"> DELHI SKILL ENTERPRENEUR UNIVERSITY </a>
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+
+<h1> Ambedkar Institution of Technology </h1>
+<img src="C:\Users\Poojaatla\Downloads\AIT.jpeg" alt="AIT" >
+                <h2>Shaping Tomorrow's Leaders</h2>
+                <p><b>Innovative education, boundless opportunities, and a vibrant community. </b></p>
+                <a href="#admissions" class="cta-button" > Apply Now </a>
+            </div>
+        </section>
+
+        <section id="academics" class="content-section">
+            <h2>Our Academics</h2>
+            <div class="grid-container">
+                <article class="academic-card">
+                    <h3> Diploma in Computer Engineering </h3>
+                    <p><b>This course teaches how to design,develop & integrate both hardware & software for computer systems & devices. You'll learn to code languages like C,Java,Python,work with Microprocessors & OS and more. </b></p>
+                </article>
+                <article class="academic-card">
+                    <h3> Diploma in Electrical Engineering </h3>
+                    <p><b>This course teaches you the fundamentals of electricity, electronics, & electromagnetism,along with how to design,develop, & analyze systems that use these principles to create everything. </b></p>
+                </article> 
+                <article class="academic-card">
+                    <h3> B.Tech in Electrical Engineering </h3>
+                    <p><b>This cource will help you to understand the fundamentals of electricity, electronics, & electrom agnetism to design, analyze, & implement electrical systems, devices, & power supply. </b></p>
+                </article>
+                <article class="academic-card">
+                   <h3> Bachelor of Computer Applications </h3>
+                   <p><b>This course help you to learn theoretical foundations and practical skills for software development & computer applications, covering topics like programming languages (C, Java, Python), database management (SQL), web technologies (HTML, CSS, JavaScript), software engineering, OS, computer networks, data structures, and algorithms. </b></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 DSEU. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('is-open');
+        });
+
+    </script>
+</body>
+</html>
